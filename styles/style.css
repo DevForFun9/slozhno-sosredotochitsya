@@ -2,7 +2,6 @@
 
 .page {
   margin: 0 auto;
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: "IBM Plex mono", sans-serif;
   font-size: 18px;
   font-style: normal;
