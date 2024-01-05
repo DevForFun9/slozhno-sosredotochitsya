@@ -6,7 +6,7 @@
   font-size: 18px;
   font-style: normal;
   background-image: var(--header-background);
-  background-color: currentColor;
+  background-color: var(--backup-color);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;

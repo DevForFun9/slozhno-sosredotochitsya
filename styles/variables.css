@@ -6,6 +6,7 @@
 :root {
   --accent-color: #ff0070;
   --background-text-color: #000028;
+  --backup-color: #000028;
   --text-color: #f1b2ce;
   --header-background: url("../images/cover-image-dark.png");
   --title-color: #db00ff;
