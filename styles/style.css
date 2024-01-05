@@ -6,6 +6,7 @@
   font-size: 18px;
   font-style: normal;
   background-image: var(--header-background);
+  background-color: currentColor;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -27,6 +28,7 @@
 
 .content__link:focus {
   border: 1px solid var(--text-color);
+  outline: none;
 }
 
 .decorated-zone::before {
@@ -61,6 +63,7 @@
   gap: 55px 0;
   margin: 0 10px;
   block-size: 100vb;
+  min-height: 668px;
 }
 
 .header__rec {
@@ -80,7 +83,7 @@
   margin-inline-start: 10px;
   border-radius: 50%;
   background-color: var(--accent-color);
-  filter: drop-shadow(0 0 4px var(--accent-color));
+  box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
 .shadow-label {
@@ -228,6 +231,7 @@
   align-content: center;
   margin: 40px 10px 0;
   block-size: 100vb;
+  min-height: 667px;
 }
 
 .footer__title {
