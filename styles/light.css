@@ -28,4 +28,7 @@
     --article-title: var(--text-color);
     --toggler-hover: rgba(50, 49, 45, 0.4);
   }
+  .page.theme_auto .header__rec {
+    display: none;
+  }
 }
